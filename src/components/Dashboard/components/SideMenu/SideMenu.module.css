@@ -1,0 +1,53 @@
+.sidemenu {
+    width: 345px;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #18181B;
+    border: 1px solid var(--secondary-color);
+    padding: 5rem 1rem;
+}
+
+.sidemenu div {
+    margin-bottom: 1rem;
+}
+
+.sidemenu div:last-child svg {
+    color: #FFA54C;
+}
+
+.sidemenuTitle {
+    margin-bottom: 8px;
+}
+
+.sidemenuCard ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.sideMenuItem {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 9px 18px;
+    border-radius: 8px;
+    color: var(--third-color);
+    background-color: #1F1F23;
+    border: 1px solid #27272A;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sideMenuItem:hover {
+    box-shadow: 0 4px 12px rgba(101, 99, 99, 0.2);
+    transform: translateY(-2px);
+}
+
+.sideMenuItem svg {
+    width: 18px;
+    height: 18px;
+    color: var(--primary-color);
+}

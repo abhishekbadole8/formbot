@@ -1,0 +1,72 @@
+.authWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginCard {
+    min-width: 275px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputBox label {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    border-radius: 6px;
+    color: #636364;
+}
+
+.errorTag {
+    left: 6px;
+    bottom: -1.05rem;
+    position: absolute;
+    color: #522224;
+    font-size: 14px;
+}
+
+.loginCard .submitBtn {
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.submitBtn {
+    margin-top: 0.65rem;
+}
+
+.extraLine {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.extraLine span {
+    color: #1A5FFF;
+    margin-left: 4px;
+}
+
+.extraLine span:hover{
+    text-decoration: underline;
+}

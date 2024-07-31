@@ -1,0 +1,149 @@
+.workspaceSection {
+    position: relative;
+    padding: 48px 220px;
+}
+
+/* folder */
+.createFolderContainer {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+
+.createFolderBtn,
+.folderItem {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--third-color);
+    background-color: rgba(255, 255, 255, 8%);
+}
+
+.createFolderBtn svg {
+    stroke-width: 3px;
+}
+
+.folderList {
+    list-style: none;
+}
+
+.folderItem svg:hover {
+    color: #F55050;
+}
+
+/* typebot */
+
+.typebotContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.createTypebotBtn,
+.typebotformItem {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 170px;
+    height: 170px;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--third-color);
+    background-color: var(--primary-color);
+}
+
+.typebotformList {
+    list-style: none;
+}
+
+.typebotformItem {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.deleteIcon {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #F55054;
+    border-radius: 50%;
+    padding: 4px;
+    width: 22px;
+    height: 22px;
+}
+
+.deleteIcon:hover {
+    background-color: var(--third-color);
+    color: red;
+}
+
+/* Create Folder Modal */
+
+.createFolderModal {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #18181B;
+    border-radius: 24px;
+    padding: 30px;
+}
+
+.createFolderModal h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.modalInput {
+    width: 100%;
+    background-color: #1F1F23;
+    border: none;
+    font-size: 14px;
+    margin: 18px 0;
+    padding: 16px 12px;
+    border-radius: 8px;
+}
+
+.modalBtns {
+    padding: 0 1rem;
+}
+
+.modalBtns button {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.modalBtns button:first-child {
+    color: var(--primary-color);
+    border-right: .5px solid #47474A;
+}
+
+.modalBtns button:last-child {
+    color: var(--primary-color);
+    border-left: .5px solid #47474A;
+}
+
+
+/* confirm */
+
+.confirmModalTitle{
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 1.25rem;
+}
